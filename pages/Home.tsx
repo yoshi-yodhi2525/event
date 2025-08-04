@@ -30,7 +30,7 @@ const Home = () => {
       <div className="grid md:grid-cols-2 gap-8">
         <InfoCard icon={CalendarIcon} title="日時・場所" children={
             <>
-                <p><strong>日時:</strong> 2025年9月6日 (土) 10:00 - 16:00</p>
+                <p><strong>日時:</strong> 2025年9月6日 (土) 13:00 - 18:00</p>
                 <p><strong>場所:</strong> サイボウズ　東京都中央区日本橋２丁目７−１ 東京日本橋タワー２７階</p>
                 <p><strong>アクセス:</strong> 東京メトロ銀座線・東西線、都営地下鉄浅草線：「日本橋駅」B6出口直通
 東京メトロ半蔵門線・銀座線：「三越前駅」B6出口より徒歩3分
