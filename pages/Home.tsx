@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MapPinIcon, CalendarIcon } from '../components/Icons';
+import { MapPinIcon, CalendarIcon, UsersIcon } from '../components/Icons';
 
 const InfoCard = ({ icon, title, children }: { icon: React.ElementType, title: string, children: React.ReactNode }) => {
     const IconComponent = icon;
@@ -31,7 +31,7 @@ const Home = () => {
         <InfoCard icon={CalendarIcon} title="日時・場所" children={
             <>
                 <p><strong>日時:</strong> 2025年9月6日 (土) 13:00 - 18:00</p>
-                <p><strong>場所:</strong> サイボウズ　東京都中央区日本橋２丁目７−１ 東京日本橋タワー２７階</p>
+                <p><strong>場所:</strong> サイボウズ　東京都中央区日本橋２丁目７?１ 東京日本橋タワー２７階</p>
                 <p><strong>アクセス:</strong> 東京メトロ銀座線・東西線、都営地下鉄浅草線：「日本橋駅」B6出口直通
 東京メトロ半蔵門線・銀座線：「三越前駅」B6出口より徒歩3分
 JR：「東京駅」八重洲北口より徒歩10分</p>
@@ -53,9 +53,5 @@ JR：「東京駅」八重洲北口より徒歩10分</p>
     </div>
   );
 };
-
-const UsersIcon = (props: React.SVGProps<SVGSVGElement>) => (
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-  );
 
 export default Home;
